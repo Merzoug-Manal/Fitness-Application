@@ -18,12 +18,16 @@ The application includes features such as animations, icons, and smooth page tra
 To get started with this app, follow these steps:
 
 1. **Clone the Repository**:
+   
    git clone https://github.com/Merzoug-Manal/Fitness-Application.git
-2. **Navigate to the Project Directory**:
+3. **Navigate to the Project Directory**:
+   
      cd Fitness-Application
-3. **Install Dependencies**:
+5. **Install Dependencies**:
+   
      npm install
-4. **Start the Application**:
+7. **Start the Application**:
+   
    npm run dev 
 (The app will start running on http://localhost:5173)
 
