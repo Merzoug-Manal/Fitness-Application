@@ -1,5 +1,5 @@
 
-import useMediaQuery from "@/media/mediaQuery";
+
 import { SelectedPage } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton";
 import HomeImg from "@/assets/home.png";
@@ -12,7 +12,7 @@ type Props = {
 };
 
 const Home = ({ setSelectedPage }: Props) => {
-  const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
+  
   return (
     <section id="home" className="gap-16  py-10 md:h-full md:pb-0">
       {/* IMAGE AND MAIN HEADER */}
